@@ -1,8 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-font-family: "Roboto", sans-serif;
-
 
 body {
-    font-family: Roboto; 
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.main-heading {
+    margin: 0;
+}
+
+#greece {
+    width: 450px;
+    height: auto;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap:20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
