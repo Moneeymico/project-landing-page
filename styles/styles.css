@@ -178,8 +178,10 @@ a {
     padding: 50px;
     border-radius: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 900px;
+    padding-left: 250px;
+    padding-right: 250px;
     
 }
 
