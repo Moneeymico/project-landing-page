@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 body {
     font-family: 'Roboto';
     margin: 0;
@@ -11,35 +12,120 @@ body {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0;
+    justify-content: space-evenly;   
+    padding: 0 10px;
 }
-
-.hero {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-}
-
-.main-heading {
-    margin: 0;
-}
-
-#greece {
-    width: 450px;
-    height: auto;
-}
-
 
 ul {
     display: flex;
     list-style: none;
     gap:20px;
+}
 
+.hero {
+
+    background-color: #1F2937;
+    color: #F9FAF8; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 60px;
+    gap: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 500px;
+}
+
+.text {
+    font-size: 18px;
+    width: 500px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #545557;
+    height: 250px;
+    flex-basis: 550px;
+
+}
+
+.signup-button1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 132px;
+    font-size: 18px;
+    font-weight: bold;
+    border:1px solid white;
+    padding: 8px 32px;
+    border-radius: 10px;
+    
 }
 
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+
+.container4 {
+    padding: 20px;
+    margin: 50px;
+    background-color: #3882F6;
+    border-radius: 25px;
+   
+}
+
+.info {
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+  
+}
+
+.heading-2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.small-imgs {
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;   
+}
+
+.text-img1 {
+    width: 150px;
+}
+
+.signup-button2 {
+    border: solid  white;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #F9FAF8;
+    padding: 35px;
 }
 
