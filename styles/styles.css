@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #57cf47;
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
@@ -23,8 +23,7 @@ ul {
 }
 
 .hero {
-
-    background-color: #1F2937;
+    background-color: #57cf47;
     color: #F9FAF8; 
     display: flex;
     justify-content: center;
@@ -59,13 +58,14 @@ ul {
     background-color: #545557;
     height: 250px;
     flex-basis: 550px;
+    background-image: url(../images/DBS.jpg);
 
 }
 
 .signup-button1 {
     flex-grow: 0;
     flex-shrink: 0;
-    width: 132px;
+    width: 140px;
     font-size: 18px;
     font-weight: bold;
     border:1px solid white;
@@ -85,7 +85,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;   
+    gap: 50px;  
+    margin: 0; 
   
 }
 
@@ -106,13 +107,16 @@ a {
 .characters{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    text-align: center;
+    gap: 10px;
+    flex-basis: 150px;
+    
 
 }
 
 .text {
-    width: 150px;
-    text-align: center;
+    width: 170px;
+    
 }
 
 .placeholder2 {
@@ -120,14 +124,10 @@ a {
     width: 170px;
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    border-radius: 20px;
 }
 
-
-.signup-button2 {
-    border: solid  white;
-    background-color: #3882F6;
-    border-radius: 10px;
-}
 
 .footer {
     background-color: #1F2937;
@@ -139,4 +139,65 @@ a {
     padding: 35px;
 }
 
+.quote {
+    background-color: #57cf47;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-3, .saidby {
+    width: 700px;
+}
+
+.saidby {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-align: right;
+}
+
+.heading-3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    padding: 80px;
+    
+}
+
+.call {
+    background-color: #57cf47;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    
+}
+
+.sign-content {
+    font-size: 18px;
+}
+
+.heading-4 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.signup-button2 {
+    border: solid  white;
+    background-color: #57cf47;
+    border-radius: 10px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 20px;
+}
 
