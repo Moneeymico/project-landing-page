@@ -58,19 +58,22 @@ ul {
     background-color: #545557;
     height: 250px;
     flex-basis: 550px;
-    background-image: url(../images/DBS.jpg);
+    border-radius: 10px;
+    background-image: url(../images/dbs.jpg);
 
 }
 
 .signup-button1 {
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:150px;
     font-size: 18px;
     font-weight: bold;
     border:1px solid white;
     padding: 8px 32px;
-    border-radius: 10px;  
+    border-radius: 10px;
+    box-shadow: 0 10px 20px white;  
 }
 
 a {
@@ -126,8 +129,44 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    box-shadow: 0 5px 15px #32a5e7;
+    background-image: url(../images/Dragon-Ball-Omni-King.png)
 }
 
+
+.placeholder3 {
+    height: 170px;
+    width: 170px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #a171c9;
+    background-image: url(../images/goku.jpg);
+    
+}
+
+.placeholder4 {
+    height: 170px;
+    width: 170px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #7ef07e;
+    background-image: url(../images/broly.jpg);
+}   
+
+.placeholder5 {
+    height: 170px;
+    width: 170px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px #ff0000;
+    background-image: url(../images/jiren.jpg);
+}
 
 .footer {
     background-color: #1F2937;
@@ -201,5 +240,6 @@ a {
     width: 140px;
     font-weight: bold;
     font-size: 20px;
+    box-shadow: 0 5px 15px white;
 }
 
